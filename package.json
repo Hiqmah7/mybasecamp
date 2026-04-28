@@ -1,0 +1,33 @@
+{
+  "name": "mybasecamp-aws",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "amplify:sandbox": "ampx sandbox",
+    "amplify:deploy": "ampx pipeline-deploy",
+    "generate:graphql": "ampx generate graphql-client-code --format modelgen --model-target javascript --out src/models"
+  },
+  "dependencies": {
+    "@aws-amplify/ui-react": "^6.1.0",
+    "@aws-sdk/client-cognito-identity-provider": "^3.1037.0",
+    "aws-amplify": "^6.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.23.0"
+  },
+  "devDependencies": {
+    "@aws-amplify/backend": "^1.0.0",
+    "@aws-amplify/backend-cli": "^1.0.0",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "aws-cdk-lib": "^2.251.0",
+    "esbuild": "^0.28.0",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.0"
+  }
+}

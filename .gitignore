@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env
+.DS_Store
+*.log
+
+# Amplify Gen 2 — generated outputs (environment-specific, never commit)
+amplify_outputs.json
+
+# Amplify sandbox state
+.amplify/
